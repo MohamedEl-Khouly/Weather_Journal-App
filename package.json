@@ -1,0 +1,17 @@
+{
+  "name": "weatherapp-submission",
+  "version": "1.0.0",
+  "description": "An asynchronous web app that uses Web API and user data to dynamically update the UI in a Weather Journal application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Elkhouly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  }
+}

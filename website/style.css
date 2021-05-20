@@ -1,0 +1,141 @@
+/* ---- General Rules ---- */
+* {
+    box-sizing: border-box;
+    color: #000;
+}
+/*     Body
+Background colors set using https://uigradients.com/
+margin and padding cleared to be able to set every element alone
+*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgb(177, 240, 248), rgb(48, 62, 143));
+    background-size: cover;
+}
+/* ---- header Rules ---- */
+header {
+    background:#fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5vh;
+    z-index: 5;
+}
+.title {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    display: block;
+    color: #000;
+}
+/* ----main Rules ---- */
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 10vh auto 5vh;
+    padding: 2%;
+    border: #000 solid 3px;
+    border-radius: 5%;
+}
+.container {
+    width: 100%;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.display {
+    width: 100%;
+    padding-left: 2%;
+    background:  rgba(48, 62, 143,0.5);
+    text-align: left;
+}
+
+label{
+    width: 100%;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+input{
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+textarea {
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    width: 30%;
+    align-self: center;
+    font-size: 80%;
+    box-shadow: 2px 4px 5px #444;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+.display h2{
+    font-size: 3em;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+#entryHolder div {
+    font-size: 2em;
+    text-transform: capitalize;
+    color: #fff;
+}
+i {
+    color: #fff;
+    font-size: 2rem;
+    padding-right: 1%;
+}
+hr{
+	width: 400px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    color: #000;
+    font-size: 2 em;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000;
+    font-size: 2em;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000;
+    font-size: 2em;
+}
+/* ----footer Rules ---- */
+footer{
+    background: #000;
+    padding: 2vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 5;
+}
+footer p{
+    color: #fff;
+}

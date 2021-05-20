@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbd9e416c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            weather journal app
+        </div>
+    </header>
+    <main  class="flexContainer">
+        <div class="container">
+            <div class="form">
+                <div class="zip">
+                    <label for="zip">enter zip code here:</label>
+                    <input type="text" name="" id="zip" placeholder="enter zip code here">
+                </div>
+                <div class="feel">
+                    <label for="feelings">how are you feeling today ?</label>
+                    <textarea name="" id="feelings" placeholder="Enter your feelings here" ></textarea>
+                    <button id="generate">generate</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="display">
+                <h2>Most Recent Entry</h2>
+                <div id="entryHolder">
+                    <div id="date"></div>
+                    <div id="temp"></div>
+                    <div id="content"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy Mohamed Elkhouly</p>
+    </footer>
+<script type="text/javascript" src="/env.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
+
